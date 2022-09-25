@@ -10,7 +10,7 @@ const DetailsHeader = ({ artistId, artistData, songData }) => (
         alt="profile"
         src={
           artistId
-            ? artistData?.artists[artistId].attrbutes?.artwork?.url
+            ? artistData?.artists[artistId].attributes?.artwork?.url
                 .replace("{w}", "500")
                 .replace("{h}", "500")
             : songData?.images?.coverart
